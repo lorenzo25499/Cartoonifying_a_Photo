@@ -41,3 +41,6 @@ Il programma fa uso di diversi step per creare l'effetto desiderato:
 - Quantize Color per dare l'effetto "cartoon"
 - Sovrapporre i bordi trovati con il Canny Edge Detector sull' immagine a colori per avere l' effetto desiderato
           
+          
+ PURTROPPO L' ESECUZIONE RICHIEDE DEL TEMPO (CIRCA 30 MIN O POCO PIU')
+ AVENDO SCRITTO TUTTE LE FUNZIONI SENZA USARE QUELLE PROPOSTE DALLA LIBRERIA OPENCV 
