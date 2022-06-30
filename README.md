@@ -11,13 +11,13 @@ Per questo progetto sono neccesarie le seguenti librerie:
 
 
 Per installarle è necesario digitare da riga di comando:
-$ pip install opencv-python
+- $ pip install opencv-python
 oppure:
-$ pip install opencv-python==<versione che si intende installare>
+- $ pip install opencv-python==<versione che si intende installare>. 
 
 
 Per eseguire il codice digitare da riga di comando della directory il seguente comando:
-$ py main.py input/<nome_immagine>.jpg
+- $ py main.py input/<nome_immagine>.jpg
 
 
 Le immagini per testare il codice sono nella cartella "input"
