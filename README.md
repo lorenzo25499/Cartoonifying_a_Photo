@@ -12,6 +12,7 @@ Per questo progetto sono neccesarie le seguenti librerie:
 
 Per installarle è necesario digitare da riga di comando:
 - $ pip install opencv-python
+
 Oppure:
 - $ pip install opencv-python== <versione che si intende installare> 
 
