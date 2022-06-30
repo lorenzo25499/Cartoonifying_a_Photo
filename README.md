@@ -14,7 +14,7 @@ Per installarle è necesario digitare da riga di comando:
 - $ pip install opencv-python
 
 Oppure:
-- $ pip install opencv-python== <versione che si intende installare> 
+- $ pip install opencv-python==<versione>
 
 
 Per eseguire il codice digitare da riga di comando della directory il seguente comando:
