@@ -10,6 +10,7 @@ def rows(img):
 def cols(img):
     c,r,ch= img.shape
     return c
+
 #numero canali img rgb
 def channels(img):
     c,r,ch= img.shape
