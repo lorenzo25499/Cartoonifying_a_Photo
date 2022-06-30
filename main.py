@@ -28,6 +28,8 @@ for i in range(3):
     img[:,:,i] = sb.median_filter(img[:,:,i],7)
 cv.imwrite(r"output\1_median.jpg", img)
 img= imf.rgb2gray(img)
+
+
 # 2) APPLICAZIONE DEL CANNY EDGE DETECTOR 
 
 ## 2.1- riduzione del rumore: applico filtro gaussiano
@@ -70,6 +72,7 @@ print(" SONO IN 2.5! HYSTERESIS! ")
 print("\n")
 hys_img= ced.hysteresis(thr, weak, strong)
 cv.imwrite(r"output\2_5_HYSTERESIS.jpg", hys_img)
+
 
 # 3) MORPHOLOGICAL OPERATIONS: DILATION
 ## se trovo un pixel luminoso(255) 
@@ -147,6 +150,7 @@ for i in range(3):
     final[:,:,i]= sb.median_filter(final[:,:,i], 7)
 cv.imwrite(r"output/4_7_BIL_IMAGE_MEDIAN_FILTER.jpg", final)
 
+
 ## 5) QUANTIZE COLOR
 ## cambiare il valore di ogni pixel
 ## con la seguente formula: pixel_nuovo= floor(pixel_corrente/a) * a
@@ -156,6 +160,7 @@ print(" SONO IN 5! QUANTIZE COLOR! ")
 print("\n")
 color= imf.quantize_color(final, 24)
 cv.imwrite(r"output/5_quantize_color.jpg", color)
+
 
 ## 6) RECOMBINE
 ## sovrapporre all'immagine a colori i bordi
