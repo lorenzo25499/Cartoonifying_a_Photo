@@ -1,7 +1,8 @@
 
 # CARTOONYFING_A_PHOTO
 
-Questo progetto è stato testato con la versione di Python 3.10.4.
+Questo progetto è stato testato con la versione Python 3.10.4.
+
 Per l'uso si consiglia una versione almeno pari a quella scritta sopra.
 
 
@@ -42,5 +43,5 @@ Il programma fa uso di diversi step per creare l'effetto desiderato:
 - Sovrapporre i bordi trovati con il Canny Edge Detector sull' immagine a colori per avere l' effetto desiderato
           
           
- PURTROPPO L' ESECUZIONE RICHIEDE DEL TEMPO (CIRCA 30 MIN O POCO PIU')
- AVENDO SCRITTO TUTTE LE FUNZIONI SENZA USARE QUELLE PROPOSTE DALLA LIBRERIA OPENCV 
+ **PUTROPPO L'ESECUZIONE RICHIEDE DEL TEMPO (CIRCA 30 MIN O POCO PIU')
+ AVENDO SCRITTO TUTTE LE FUNZIONI SENZA USARE QUELLE PROPOSTE DALLA LIBRERIA OPENCV**
