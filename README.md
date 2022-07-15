@@ -25,7 +25,7 @@ Per eseguire il codice digitare da riga di comando della directory il seguente c
 
 Le immagini per testare il codice sono nella cartella "input"
 
-Il programma fa uso di diversi step per creare l'effetto desiderato:
+Il programma fa uso di diversi steps per creare l'effetto desiderato:
 - Applicazione di un median filter all'immagine data in input per ridurne il rumore
 - Conversione dell' immagine in scala di grigi
 - Applicazione di un rilevatore di bordi: in questo caso è stato scelto il Canny Edge Detector:
