@@ -31,7 +31,6 @@ img= imf.rgb2gray(img)
 
 
 # 2) APPLICAZIONE DEL CANNY EDGE DETECTOR 
-
 ## 2.1- riduzione del rumore: applico filtro gaussiano
 print(" SONO IN 2.1! GAUSS FILTER! ")
 print("\n")
