@@ -44,5 +44,4 @@ Il programma fa uso di diversi steps per creare l'effetto desiderato:
 - Sovrapporre i bordi trovati con il Canny Edge Detector sull' immagine a colori per avere l' effetto desiderato
           
           
- **PUTROPPO L'ESECUZIONE RICHIEDE DEL TEMPO (CIRCA 45 MIN O POCO PIU')
- AVENDO SCRITTO TUTTE LE FUNZIONI SENZA USARE QUELLE PROPOSTE DALLA LIBRERIA OPENCV**
+
