@@ -1,5 +1,5 @@
 
-# CARTOONYFING_A_PHOTO
+# CARTOONIFYING_A_PHOTO
 
 Questo progetto è stato testato con la versione Python 3.10.4.
 
