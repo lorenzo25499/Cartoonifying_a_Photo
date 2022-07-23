@@ -243,7 +243,7 @@ variable = tk.StringVar(window)
 variable.set(OptionList[0])
 
 
-label0= tk.Label(window, text="BENVENUTO NEL MIO PROGETTO! CARTOONIFYING A PHOTO", font=("Helvetica", 25), background="green", fg="yellow")
+label0= tk.Label(window, text="BENVENUTO NEL MIO PROGETTO!", font=("Helvetica", 25), background="green", fg="yellow")
 label0.grid(row=0, column=0, sticky="N", padx=20, pady=70)
 
 label1= tk.Label(window, text="Seleziona l'immagine su cui provare l'effetto ", font=("Helvetica", 15), background="green")
