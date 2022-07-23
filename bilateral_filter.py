@@ -33,4 +33,3 @@ def bil_filter(image, diameter, sigma_i, sigma_s):
             filtered_image = filtered_image // wp_total
             new_image[row][col] = int(np.round(filtered_image))
     return new_image
-

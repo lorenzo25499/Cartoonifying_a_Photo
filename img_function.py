@@ -1,43 +1,35 @@
 import numpy as np
 import math as m
 
-
 #numero righe img rgb
 def rows(img):
     c,r,ch= img.shape
     return r
 
-
 #numero colonne img rgb
 def cols(img):
     c,r,ch= img.shape
     return c
-
-
 #numero canali img rgb
 def channels(img):
     c,r,ch= img.shape
     return ch
-
 
 #numero righe img gray (ch=1)
 def rows_gray(img):
     c,r= img.shape
     return r
 
-
 #numero colonne img gray (ch=1)
 def cols_gray(img):
     c,r= img.shape
     return c
-
 
 #convert rgb to grayscale
 def rgb2gray(rgb):
     r, g, b= rgb[:,:,0] , rgb[:,:,1] , rgb[:,:,2]  
     gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
     return gray
-
 
 #dilation with 2x2 kernel 
 def dilation_2x2(img):
@@ -56,7 +48,6 @@ def dilation_2x2(img):
 
 
     return img_res
-
 
 #l1_normalize
 def l1_normalize(img):
@@ -119,8 +110,8 @@ def pixel_bilinear(img,x,y,c):
 
     return pixel
 
-
 def bilinear_resize(img, w, h):
+    
     ret= np.zeros((w,h,img.shape[2]))
     for i in range(w):
         for j in range(h):
@@ -146,7 +137,7 @@ def quantize_color(img, a):
     return ret
 
 
-#recombine
+#recombine 
 def recombine(img_color, img_dilation):
     img_res= np.copy(img_color)
     for k in range(img_color.shape[2]):
@@ -158,7 +149,6 @@ def recombine(img_color, img_dilation):
                     img_res[r,c,k]= 0
 
     return img_res
-
 
 #convolution
 def convolve(img, filter, preserve):
