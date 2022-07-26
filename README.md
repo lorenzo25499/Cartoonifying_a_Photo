@@ -20,7 +20,10 @@ Oppure:
 - $ py -m pip install numpy
 
 Per eseguire il codice digitare da riga di comando della directory il seguente comando:
-- $ py main.py input/<nome_immagine>.jpg
+- $ py main.py 
+
+In seguito si aprirà una finestra dove sarà possibile compilare i vari campi richiesti per avviare il programma
+
 
 
 Le immagini per testare il codice sono nella cartella "input"
@@ -44,4 +47,3 @@ Il programma fa uso di diversi steps per creare l'effetto desiderato:
 - Sovrapporre i bordi trovati con il Canny Edge Detector sull' immagine a colori per avere l' effetto desiderato
           
           
-**l'esecuzione richiede circa 45 min dovendo controllare ogni singolo pixel**
