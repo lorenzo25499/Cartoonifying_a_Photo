@@ -205,13 +205,13 @@ def esegui_codice():
                     cv.destroyAllWindows()
                     quit()
                 else:
-                    tkinter.messagebox.showinfo("ERRORE!","IL VALORE 'HIGH_THRESHOLD_RATIO' deve essere tra 0 e 1!")
+                    tkinter.messagebox.showinfo("ERRORE!","Il valore 'HIGH_THRESHOLD_RATIO' deve essere tra 0 e 1!")
                     cv.destroyAllWindows()
             else:
-                tkinter.messagebox.showinfo("ERRORE!","IL VALORE 'LOW_THRESHOLD_RATIO' deve essere tra 0 e 1!")
+                tkinter.messagebox.showinfo("ERRORE!","Il valore 'LOW_THRESHOLD_RATIO' deve essere tra 0 e 1!")
                 cv.destroyAllWindows()
         else:
-            tkinter.messagebox.showinfo("ERRORE!","IL VALORE 'SIGMA' deve essere MAGGIORE di 0!")
+            tkinter.messagebox.showinfo("ERRORE!","Il valore 'SIGMA' deve essere MAGGIORE di 0!")
             cv.destroyAllWindows()
     else:
         
